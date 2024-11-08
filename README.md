@@ -1,1 +1,71 @@
-jh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+        <header> 
+            <nav>
+        <div class="navbar" id="navbar">
+            <div class="hey popup"></div>
+            <div class="navbar-tabs" id="navbar-tabs">
+                <ul class="navbar-tabs-ul">
+                    <a href="#home" tabindex="0" aria-label="Home menu button">
+                        <li class="home activeThistab aos-init aos-animate" data-aos="fade-down" data-aos-delay="100">&lt;/Home&gt;</li></a>
+                    <a href="#about" aria-label="about menu button">
+                    <li class="about aos-init aos-animate" data-aos="fade-down" data-aos-delay="300">&lt;/AboutMe&gt;</li></a>
+                    <a href="#skills" aria-label="skills menu button">
+                    <li class="skills aos-init aos-animate" data-aos="fade-down" data-aos-delay="500">&lt;/Skills&gt;</li></a>
+                    <a href="#projects" aria-label="projects menu button">
+                    <li class="projects aos-init aos-animate" data-aos="fade-down" data-aos-delay="700">&lt;/Projects&gt;</li></a>   
+                </ul>  
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <h2>Namaste();</h2>
+        <h3>I am a passionate web developer. </h3>
+        <h1>Kumkum Dahiya</h1>
+    </div>
+    </header>
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="font-size: 130%;">I'm a web developer with experience in creating beautiful and functional websites.As a highly skilled and experienced computer programmer, I am passionate about writing code and developing high-quality software that meets the needs of my clients. My strong background in computer science, coupled with my commitment to using the best programming practices and tools available, makes me a valuable asset to any software development team. My expertise lies in developing and user-friendly web applications using technologies in HTML, CSS and JavaScript. Thriving in dynamic team enviornments, I am eager to apply my skills to overcome complex challanges and drive impactful results.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skills-list">
+          
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Educational Qualifications</h2>
+        <ul id="education-list"></ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <br>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="assets/cv.pdf" download="cv.pdf" class="download-links"></a>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <br>
+    </section>
+</main>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
